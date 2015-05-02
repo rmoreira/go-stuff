@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -a /usr/local/opt/go/src/github.com/rmoreira/net/healthcheck ]
+if [ -a /usr/local/opt/go/src/github.com/rmoreira/go-stuff/healthcheck ]
 then
   echo "OK"
 else
