@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -a /usr/local/opt/go/src/github.com/rmoreira/net/healthcheck ]
+then
+  echo "OK"
+else
+  echo "BAD"
+fi
